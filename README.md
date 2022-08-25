@@ -4,12 +4,14 @@ This repository covers some information relevant to development in Docker contai
 Updated: 08-24-2022
 
 # Repo Structure
+This section explains this repository's file strcuture.
 ## example_dockerfiles
 This **directory** contains sub-directories corresponding to different Dockerfile configuration examples. The following are also available as images on Docker Hub:
 - [Conda](https://hub.docker.com/r/jedaniels000/miniconda3): An ubuntu-based Docker image pre-installed with Miniconda
 - [Tensorflow](https://hub.docker.com/r/jedaniels000/tensorflow): An ubuntu-based Docker image pre-installed with Miniconda, Tensorflow, and the supporting CUDA resources for running Tensorflow on the GPU
 
 # Docker Reference
+This section and the remainder of the README file are dedicated to reference material such as common usage guides and tips & tricks.
 ## Setup
 Nothing yet.
 

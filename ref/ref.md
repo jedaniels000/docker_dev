@@ -14,6 +14,7 @@ Nothing yet.
 - --name \<NAME\>: Name the new instance of the docker container, according to the value of \<NAME\>
 - --rm: Removes the container (not the image) once it is stopped
 - -v, --mount: Mount a volume (used for persistent data storage); without volumes, each time a new docker container is created or restarted, all data stored (scripts, data files, etc.) is lost. Some examples of usage can be viewed [here](https://phoenixnap.com/kb/docker-volumes) for common cases. --mount is a more specific and verbose version of the shorthand version -v; if you don't know which to use, just use --mount. For more information on these commands, see [bind mounts](https://docs.docker.com/storage/bind-mounts/) (where a file or directory on the host machine is mounted into a container) or [volumes](https://docs.docker.com/storage/volumes/) (where a new directory is created within Docker’s storage directory on the host machine).
+- -p, -P: Expose the containers ports to the host ports. A good reference for the uses and differences between flags for ports can be found [here](https://www.ctl.io/developers/blog/post/docker-networking-rules)
 
 ## Tips and Tricks
 ### Installing Anaconda in Docker Container

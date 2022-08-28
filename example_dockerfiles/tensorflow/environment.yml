@@ -3,5 +3,5 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - cudnn=8.4.0.27=hed8a83a_0
-  - tensorflow-gpu=2.6.0=cuda112py39h0bbbad9_2
+  - cudnn=8.2.1.32=h86fa8c9_0
+  - tensorflow-gpu=2.8.0=cuda112py39h0bbbad9_0

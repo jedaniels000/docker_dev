@@ -34,5 +34,4 @@ RUN apt-get update \
 # Source the conda shell script so conda functions operate
 # correctly (https://github.com/conda/conda/issues/7980)
 RUN conda init bash \
-    && exec bash \
-    && source ~/.bashrc
+    && bash -c 'source ~/.bashrc'
